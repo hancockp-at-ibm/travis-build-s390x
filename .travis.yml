@@ -1,8 +1,7 @@
 os: linux
+dist: bionic
 
-service: docker
-
-sudo: required
+services: docker
 
 jobs:
   include:
