@@ -1,0 +1,11 @@
+os: linux
+
+service: docker
+
+sudo: required
+
+jobs:
+  include:
+    - stage: building travis build for s390x
+      arch: s390x
+      script: chmod +x ./build.sh; ./build.sh
