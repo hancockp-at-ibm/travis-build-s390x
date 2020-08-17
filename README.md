@@ -1,2 +1,2 @@
 # travis-build-s390x
-Repoistory to automate travis-build builds for s390x arch. 
+Repoistory to automate travis-builder image builds for s390x architecture.
