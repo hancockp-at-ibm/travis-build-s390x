@@ -5,7 +5,7 @@ cd ./travis-build
 git checkout -t origin/enterprise-2.2
 rm -f ./Dockerfile
 cp ../Dockerfile.s390x ./Dockerfile
-docker build -t quay.io/rpsene/travis:build .
+docker build -t quay.io/hancockp/travistest:build .
 docker login quay.io -u "$ROBOT_USER" -p $ROBOT_TOKEN
 docker images
-docker push quay.io/rpsene/travis:build
+docker push quay.io/hancockp/travistest:build
